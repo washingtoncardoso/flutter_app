@@ -20,7 +20,7 @@ class _TodoPageState extends State<TodoPage> {
     return Scaffold(
       drawer: AppDrawer(),
       appBar: AppBar(
-        title: Text('Todos'),
+        title: Text('To-dos'),
       ),
       body: isLoading
         ? Center(

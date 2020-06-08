@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       routes: Routes.getRoutes(context),
       initialRoute: HomePage.routeName,
       theme: ThemeData(
-        primarySwatch: Colors.deepPurple
+        primarySwatch: Colors.blue
       ),
       home: HomePage(),
       debugShowCheckedModeBanner: false,

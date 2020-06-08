@@ -12,7 +12,7 @@ class AppDrawer extends StatelessWidget {
             accountName: Text("Washington Cardoso"), 
             accountEmail: Text("washington.card@gmail.com"),
             currentAccountPicture: CircleAvatar(
-              child: Image.network("https://avatars3.githubusercontent.com/u/60671227?s=460&u=2c17b5112a8fdfdebe880a93313a35d614e75174&v=4"),
+              child: Image.asset('images/wash.jpg'),
             ),  
           ),
           ListTile(
@@ -22,17 +22,17 @@ class AppDrawer extends StatelessWidget {
           ),
           ListTile(
             leading: Icon( Icons.photo_album ),
-            title: Text("Albums"),
+            title: Text("Álbuns"),
             onTap: () => Navigator.pushReplacementNamed(context, Routes.albums),
           ),
           ListTile(
             leading: Icon( Icons.list ),
-            title: Text("Posts"),
+            title: Text("Postagens"),
             onTap: () => Navigator.pushReplacementNamed(context, Routes.post),
           ),
           ListTile(
             leading: Icon( Icons.check_box ),
-            title: Text("Todos"),
+            title: Text("To-dos"),
             onTap: () => Navigator.pushReplacementNamed(context, Routes.todos),
           ),
         ],

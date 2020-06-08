@@ -20,7 +20,7 @@ class _PostPageState extends State<PostPage> {
     return Scaffold(
       drawer: AppDrawer(),
       appBar: AppBar(
-        title: Text('Posts'),
+        title: Text('Postagens'),
       ),
       body: isLoading
         ? Center(

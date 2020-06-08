@@ -20,7 +20,7 @@ class _AlbumPageState extends State<AlbumPage> {
     return Scaffold(
       drawer: AppDrawer(),
       appBar: AppBar(
-        title: Text('Albums'),
+        title: Text('Álbuns'),
       ),
       body: isLoading
         ? Center(
